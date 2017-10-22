@@ -1,4 +1,4 @@
-const webTaskLocation = 'https://wt-3f493189a06b54beca136c03c8837d85-0.run.webtask.io/test8';
+const webTaskLocation = 'https://wt-3f493189a06b54beca136c03c8837d85-0.run.webtask.io/pushMail';
 
 // Set initial state for the user to mutate
 var state = {
