@@ -1,0 +1,41 @@
+<!doctype html>
+<style type="text/css">
+    body {
+        background-color: black;
+    }
+	#mainPopup {
+        color: white;
+		padding: 10px;
+		height: 200px;
+		width: 400px;
+		font-family: Helvetica, Ubuntu, Arial, sans-serif;
+	}
+    #masterForm input {
+        display: block;
+        margin: 15px 0;
+    }
+    #email {
+        width: 50%;
+    }
+    #textInput {
+        height: 40px;
+        width: 100%;
+    }
+    #prompt{
+        display: none;
+    }
+	h1 {
+		font-size: 2em;
+	}
+</style>
+<script src="../js/httpActions.js"></script>
+
+<div id="mainPopup">
+<h1>PushMail</h1>
+    <form name="masterForm" id="masterForm" action="">
+        <input placeholder="Recipient Email" id="email" type="email">
+        <textarea placeholder="Text" id="textInput"></textarea>
+        <input id="sendButton" type="submit" value="Send Email">
+    </form>
+    <div id="prompt"></div>
+</div>
